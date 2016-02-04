@@ -12,7 +12,7 @@ module.exports = function(content, file, conf){
 
     conf.paths = [ file.dirname, root ];
     conf.syncImport = true;
-    conf.relativeUrls = true;
+    conf.relativeUrls = conf.relativeUrls !== false ? true : false;
 
     less.render(content, conf, function (err, result) {
         if (err) {
