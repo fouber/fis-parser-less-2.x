@@ -7,10 +7,12 @@
 
 var less = require('less');
 var root = fis.project.getProjectPath();
+var path = require('path');
 
 module.exports = function(content, file, conf){
 
-    conf.paths = [ file.dirname, root ];
+    conf.paths = [ path.resolve(file.dirname), root ];
+    conf.filename = path.resolve(file.fullname);
     conf.syncImport = true;
     conf.relativeUrls = conf.relativeUrls !== false ? true : false;
 
