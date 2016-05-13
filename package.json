@@ -1,9 +1,9 @@
 {
-    "name" : "fis-parser-less-2.x",
+    "name" : "fis3-parser-less-2.x",
     "description" : "A parser for fis to compile less(v2.x) file.",
     "version" : "0.1.4",
-    "author" : "FIS Team <fis@baidu.com>",
-    "homepage" : "https://github.com/fouber/fis-parser-less",
+    "author" : "snadn",
+    "homepage" : "https://github.com/snadn/fis-parser-less-2.x",
     "keywords": [ "fis", "less" ],
     "license": "MIT",
     "main" : "index.js",
@@ -12,10 +12,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fouber/fis-parser-less-2.x"
+        "url": "https://github.com/snadn/fis-parser-less-2.x"
     },
     "scripts" : {},
     "dependencies" : {
-        "less" : "2.5.0"
+        "less" : "^2.5.0"
     }
 }
