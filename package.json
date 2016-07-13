@@ -16,6 +16,6 @@
     },
     "scripts" : {},
     "dependencies" : {
-        "less" : "2.5.0"
+        "less" : "2.7.1"
     }
 }
